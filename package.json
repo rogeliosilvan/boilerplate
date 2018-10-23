@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate para Sra. Rushmore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeliosilvan/boilerplate.git"
+  },
+  "author": "Rogelio Silvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogeliosilvan/boilerplate/issues"
+  },
+  "homepage": "https://github.com/rogeliosilvan/boilerplate#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
