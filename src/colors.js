@@ -1,2 +1,1 @@
-
-export default ['red', 'blue'];
+module.exports = ['red', 'green'];

@@ -1,5 +1,5 @@
-import colors from './colors';
 import $ from 'jquery'
+import colors from './colors';
 // const hola = () => console.log("hola");
 // hola();
 
@@ -16,7 +16,7 @@ function getLocation() {
 }
 
 function savePosition(position) {
-
+    console.log("savePosition");
     let localCordenadas = {}
 
     let posicion = {
@@ -38,7 +38,8 @@ function savePosition(position) {
             }
         }
     }
-    $("#mydiv").text("tu posición es Latitud: " +  position.coords.latitude +  "longitud: " +  position.coords.longitude);
+    console.log("carga text");
+    $("#myDiv").text("tu posición es Latitud: " +  position.coords.latitude +  "longitud: " +  position.coords.longitude);
 
     Notification.requestPermission().then(function(result) {
         console.log(result);
@@ -50,4 +51,4 @@ function savePosition(position) {
 
 
 
-console.log(window.localStorage)
+//console.log(window.localStorage)
